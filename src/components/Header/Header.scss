@@ -1,0 +1,18 @@
+#header{
+  padding: 12px 0;
+  background: rgba(128, 128, 128, 0.98);
+  .header{
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    //flex-wrap: wrap;
+    &--link{
+      font-weight: 700;
+      color: red;
+      font-size: 19px;
+      margin: 20px;
+    }
+
+  }
+}
